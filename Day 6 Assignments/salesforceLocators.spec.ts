@@ -9,12 +9,12 @@ test("Salesforce Create Lead", async ({ page }) => {
 
     // enter username
     await page.locator("#username").fill(
-        "suryaanandasundaram.df93405f59ff@agentforce.com"
+        "abhinandramanath.46aa381d4374@agentforce.com"
     );
 
     // enter password from environment variable
     await page.locator("#password").fill(
-        process.env.SF_PASSWORD!
+        process.env.Abcd123$
     );
 
     // click Login button
